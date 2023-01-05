@@ -1,10 +1,14 @@
 * {
-    
+   font-family: Helvetica;
 }
 
 body {
     border: 3px solid gray;
     padding: 10px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 103px;
 }
 
 h2 {
