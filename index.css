@@ -2,13 +2,23 @@
    font-family: Helvetica;
 }
 
-body {
+#main {
     border: 3px solid gray;
+    border-radius: 3px;
     padding: 10px;
     width: 310px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 103px;
+    
+}
+
+body {
+    padding: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
 
 h2 {
@@ -21,4 +31,62 @@ h2 {
 
 #password {
     width: 300px;
+}
+
+#continue {
+    width: 310px;
+    background-color: rgb(228, 180, 21);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+li {
+    padding-left: 5px;
+}
+
+hr.one {
+    width: 70px;
+    display: inline-block;
+    border-top: 3px solid #000000;
+}
+
+hr.two {
+    width: 70px;
+    display: inline-block;
+    border-top: 3px solid #000000;
+}
+
+#new {
+    font-size: medium;
+    padding-top:10px;
+}
+
+
+#create {
+    margin: 15px;
+
+    background-color: rgb(170, 169, 166);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width:270px;
+    
+}
+
+footer {
+    font-size: small;
+    padding-top:400px;
+    text-align: center;
+}
+
+#three {
+    width:100%;
+    position: absolute;
+    bottom:70px;
+}
+
+#below {
+    text-align: center;
 }
